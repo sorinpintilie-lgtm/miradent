@@ -1,0 +1,11 @@
+[build]
+  # This project is a static site and the entrypoint is in /public
+  publish = "public"
+  command = ""
+
+[[redirects]]
+  # Safety net: always serve the single page for any path (prevents Netlify 404s on refresh)
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
