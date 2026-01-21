@@ -46,6 +46,7 @@
     <nav class="sticky-nav shrink-scroll" aria-label="Navigație principală">
       <div class="nav-inner">
         <div class="brand">
+          <img src="./logomiradent.png" alt="Miradent Logo" class="brand-logo" />
           <span class="brand-name">Miradent</span>
           <span class="brand-sub">Cabinet Stomatologic Sector 3</span>
         </div>
@@ -87,28 +88,29 @@
             <div class="bento-grid-compact">
               <div class="hero-text reveal">
                 <div class="hero-kicker">București, Sector 3</div>
+                <h1 class="hero-title">Cabinet stomatologic Sector 3. Clar. Calm. Fără grabă.</h1>
                 <p class="hero-subtitle">
-                  Cabinet stomatologic Sector 3, totul clar, totul fără stres.
+                  Consultații și tratamente moderne, explicate simplu. Știi exact ce urmează și cât costă.
                 </p>
                 <div class="cta-row">
                   <button class="coral-btn sticky-scroll" type="button" data-scroll="#contact">
-                    Rezervă acum
+                    Programează-te
                   </button>
-                  <button class="outline-btn" type="button" data-scroll="#servicii">Servicii</button>
+                  <button class="outline-btn" type="button" data-scroll="#servicii">Vezi serviciile</button>
                 </div>
-
+  
                 <div class="hero-metrics glass" role="list">
                   <div class="metric" role="listitem">
                     <div class="metric-value">Modern</div>
-                    <div class="metric-label">Tehnologie & protocoale</div>
+                    <div class="metric-label">Tehnologie actuală, protocoale clare.</div>
                   </div>
                   <div class="metric" role="listitem">
                     <div class="metric-value">Rapid</div>
-                    <div class="metric-label">Programări eficiente</div>
+                    <div class="metric-label">Programări eficiente, timp respectat.</div>
                   </div>
                   <div class="metric" role="listitem">
                     <div class="metric-value">Calm</div>
-                    <div class="metric-label">Experiență fără stres</div>
+                    <div class="metric-label">Fără presiune. Fără stres inutil.</div>
                   </div>
                 </div>
               </div>
@@ -120,43 +122,44 @@
       <section id="servicii" class="services-bento" aria-label="Servicii">
         <div class="container">
           <h2 class="sticky-title">Servicii complete</h2>
+          <p class="section-sub">De la prevenție la tratamente complexe — cu pași clari și rezultate controlate.</p>
 
           <div class="bento-grid-3x3 clean">
             <article class="service-card glass reveal">
               <h3>Profilaxie</h3>
-              <p>Detartraj, airflow profesional, control periodic.</p>
+              <p>Detartraj, airflow, control periodic.</p>
             </article>
             <article class="service-card glass reveal">
               <h3>Stomatologie generală</h3>
-              <p>Obturații, consultații, plan de tratament clar.</p>
+              <p>Consultații, obturații, plan de tratament pe înțeles.</p>
             </article>
             <article class="service-card glass reveal">
               <h3>Endodonție</h3>
-              <p>Tratamente de canal cu focus pe precizie.</p>
+              <p>Tratamente de canal cu focus pe precizie și confort.</p>
             </article>
             <article class="service-card glass reveal">
               <h3>Estetică dentară</h3>
-              <p>Albire, remodelare, zâmbet natural și curat.</p>
+              <p>Albire, corecții fine, zâmbet natural.</p>
             </article>
             <article class="service-card glass reveal">
               <h3>Protetică</h3>
-              <p>Coroane, punți, soluții funcționale și stabile.</p>
+              <p>Coroane și punți bine adaptate, funcționale.</p>
             </article>
             <article class="service-card glass reveal">
               <h3>Implantologie</h3>
-              <p>Înlocuire dinți cu planificare atentă.</p>
+              <p>Înlocuire dinți cu planificare atentă și stabilitate.</p>
             </article>
             <article class="service-card glass reveal">
               <h3>Pedodonție</h3>
-              <p>Abordare blândă, confort pentru copii.</p>
+              <p>Răbdare și abordare blândă pentru copii.</p>
             </article>
             <article class="service-card glass reveal">
               <h3>Ortodonție</h3>
-              <p>Aliniere, ghidaj, estetică pe termen lung.</p>
+              <p>Aliniere și ghidaj, cu obiective realiste.</p>
             </article>
             <article class="service-card glass reveal">
               <h3>Urgențe</h3>
-              <p>Durere acută, intervenții rapide, comunicare clară.</p>
+              <p>Intervenții rapide, comunicare directă.</p>
             </article>
           </div>
 
@@ -171,7 +174,7 @@
           <div class="section-head">
             <h2>Echipa</h2>
             <p class="section-sub">
-              Minim, direct, fără aglomerație. O echipă care explică, nu grăbește.
+              Oameni calmi, explicații clare, decizii fără grabă.
             </p>
           </div>
 
@@ -251,12 +254,12 @@
             <form class="glass-form reveal" id="appointment-form" autocomplete="on">
               <div class="form-head">
                 <h2>Programare</h2>
-                <p>Trimite detaliile. Confirmarea se face telefonic.</p>
+                <p>Trimite datele. Confirmăm telefonic în cel mai scurt timp.</p>
               </div>
 
               <label>
-                <span>Nume complet</span>
-                <input name="nume" required placeholder="Nume complet" />
+                <span>Nume și prenume</span>
+                <input name="nume" required placeholder="Nume și prenume" />
               </label>
               <label>
                 <span>Telefon</span>
@@ -266,20 +269,27 @@
                 <span>Serviciu</span>
                 <select name="serviciu">
                   <option>Consult inițial</option>
-                  <option>Detartraj</option>
-                  <option>Estetică dentară</option>
+                  <option>Profilaxie</option>
+                  <option>Obturație</option>
+                  <option>Endodonție</option>
+                  <option>Estetică</option>
+                  <option>Protetică</option>
+                  <option>Implantologie</option>
+                  <option>Pedodonție</option>
+                  <option>Ortodonție</option>
                   <option>Urgență</option>
                 </select>
               </label>
               <label>
-                <span>Mesaj</span>
-                <textarea name="mesaj" required placeholder="Mesaj"></textarea>
+                <span>Mesaj (opțional)</span>
+                <textarea name="mesaj" placeholder="Mesaj (opțional)"></textarea>
               </label>
 
               <div class="form-actions">
-                <button class="coral-btn" type="submit">Trimite programare</button>
+                <button class="coral-btn" type="submit">Trimite solicitarea</button>
                 <div class="form-hint">Telefon: <a href="tel:+40213206313">021 320 63 13</a></div>
               </div>
+              <div class="form-note">Prin trimitere, ești de acord să te contactăm pentru confirmare.</div>
 
               <div class="form-status" id="form-status" aria-live="polite"></div>
             </form>
@@ -288,8 +298,7 @@
               <div class="info-card glass">
                 <div class="info-label">Adresă</div>
                 <div class="info-value">
-                  București, Sector 3, Strada Vlaicu Vodă 16, Bl. V65, Sc. 1, Parter, Ap. 1, cod
-                  031247
+                  București, Sector 3, Str. Vlaicu Vodă 16, Bl. V65, Sc. 1, Parter, Ap. 1, 031247
                 </div>
               </div>
 

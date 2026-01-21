@@ -30,17 +30,17 @@ const ASSETS = {
 const TEAM = [
   {
     name: "Dr. Andrei Popescu",
-    role: "Stomatolog generalist, 10+ ani experiență",
+    role: "Medic stomatolog • experiență clinică 10+ ani",
     img: "./young-female-dentist-in-dental-office-dentist-at-2026-01-09-06-51-47-utc.jpg",
   },
   {
     name: "Dr. Maria Ionescu",
-    role: "Estetică dentară & protetică, abordare minimalistă",
+    role: "Estetică dentară & protetică • rezultate naturale, abordare minimalistă",
     img: "./a-sexy-hot-redhead-dentist-woman-taking-care-of-h-2026-01-07-01-18-20-utc.jpg",
   },
   {
     name: "Dr. Radu Stan",
-    role: "Endodonție & urgențe, focus pe confort",
+    role: "Endodonție & urgențe • focus pe confort și controlul durerii",
     img: "./female-dentist-with-assistant-working-in-dental-cl-2026-01-07-07-00-33-utc.jpg",
   },
 ];
@@ -57,11 +57,12 @@ const SERVICE_CHIPS = [
 ];
 
 const TESTIMONIALS = [
-  { quote: "Am uitat de frica de dentist. Echipă excelentă.", author: "A.R." },
-  { quote: "Totul curat, rapid, explicat pe înțeles. Recomand.", author: "M.D." },
-  { quote: "Consultație eficientă, plan clar, fără presiune.", author: "I.C." },
-  { quote: "Foarte atent la confort. Zero stres în timpul tratamentului.", author: "S.P." },
-  { quote: "Rezultatul estetic arată natural. Fix ce mi-am dorit.", author: "L.N." },
+  { quote: "Am simțit că sunt ascultat. Totul explicat simplu.", author: "A.R." },
+  { quote: "Curat, organizat, fără grabă. Exact ce căutam.", author: "M.D." },
+  { quote: "Plan clar, fără presiune. M-a ajutat mult.", author: "I.C." },
+  { quote: "Foarte atenți la confort. N-am simțit stres.", author: "S.P." },
+  { quote: "Rezultatul estetic arată natural, nu 'prea alb'.", author: "L.N." },
+  { quote: "Programare rapidă, tratament eficient, comunicare impecabilă.", author: "C.T." },
 ];
 
 function qs(sel, root = document) {
